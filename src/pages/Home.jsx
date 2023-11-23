@@ -1,6 +1,12 @@
+import './Home.css'
 const Home = () => {
+    
     return (
-        <div>Home</div>
+        <div className='Home'>
+            <div className="container-Home">
+                <p>Home</p>
+            </div>
+        </div>
     )
 };
 

@@ -1,0 +1,22 @@
+.Home{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-Home{
+    background-color:rgb(184, 58, 20);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 70vh;
+    height: 50vh;
+    border-radius: 5vh;
+}
+@media screen and (max-width: 1080px) {
+    .container {
+      width: 60vw;
+    }
+}

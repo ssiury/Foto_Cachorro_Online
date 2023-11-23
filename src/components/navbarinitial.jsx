@@ -1,25 +1,27 @@
 
-import { Link, Outlet } from 'react-router-dom'
+import { Link } from 'react-router-dom'
+import './Navbarinitial.css'
 
 const Navbarinitial = () => {
     return (
-            <div>
+            <div className='menu'>
                 <nav id="navbar">
                     <h2>
-                        <Link to="/">Home</Link> 
+                        <Link to="/" className='item'>Home</Link> 
                     </h2>
                     <h2>
-                        <Link to="/services">Services</Link>
+                        <Link to="/services" className='item'>Services</Link>
                     </h2>
                     <h2>
-                        <Link to="/troll">Troll</Link>
+                        <Link to="/troll" className='item'>Troll</Link>
                     </h2>
                     <h2>
-                        <Link to="/macaco">Macaco</Link>
+                        <Link to="/macaco" className='item'>Macaco</Link>
                     </h2>
                 </nav>
-                <h2>Hermes</h2>
-                <Outlet/>
+                <div className='titulo'>
+                    <h2>HERMES</h2>
+                </div>
             </div>
     )
 };
