@@ -1,6 +1,12 @@
+import './Macaco.css'
 const Macaco = () => {
+    
     return (
-        <div>Macaco</div>
+        <div className='Macaco'>
+            <div className="container-Macaco">
+                <p>Macaco</p>
+            </div>
+        </div>
     )
 };
 

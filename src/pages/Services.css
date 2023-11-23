@@ -1,4 +1,4 @@
-.Troll{
+.Services{
     background-image: url("../img/home.jpeg");
     background-position: center; /* Center the image */
     background-repeat: repeat-y; /* Do not repeat the image */
@@ -9,36 +9,21 @@
     align-items: center;
     justify-content: center;
 }
-.container-Troll{
+.container-Services{
     background-color:rgb(184, 58, 20);
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    width: 80vh;
-    height: 70vh;
+    flex-direction: row;
+    width: 70vh;
+    height: 50vh;
     border-radius: 5vh;
     -webkit-box-shadow: 16px 31px 37px 11px rgba(0,0,0,0.72);
     -moz-box-shadow: 16px 31px 37px 11px rgba(0,0,0,0.72);
     box-shadow: 16px 31px 37px 11px rgba(0,0,0,0.72);
 }
-.container-Troll p {
-    background-color: #242424;
-    margin-bottom: 2vh;
-    padding: 1vw;
-    border-radius: 5vw;
-}
 @media screen and (max-width: 1080px) {
-    .container-Troll {
-        font-size: 4vw;
-        width: 70vw;
-    }
-    .container-Troll p {
-        margin-bottom: 1vh;
-        padding: 1vw;
-        border-radius: 5vw;
-    }
-    img{
-        width: 60vw;
+    .container-Services{
+      width: 60vw;
     }
 }

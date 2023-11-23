@@ -1,5 +1,9 @@
 .Home{
-    height: 90vh;
+    background-image: url("../img/home.jpeg");
+    background-position: center; /* Center the image */
+    background-repeat: repeat-y; /* Do not repeat the image */
+    background-size: cover;
+    height: 95vh;
     width: 100vw;
     display: flex;
     align-items: center;
@@ -14,9 +18,12 @@
     width: 70vh;
     height: 50vh;
     border-radius: 5vh;
+    -webkit-box-shadow: 16px 31px 37px 11px rgba(0,0,0,0.72);
+    -moz-box-shadow: 16px 31px 37px 11px rgba(0,0,0,0.72);
+    box-shadow: 16px 31px 37px 11px rgba(0,0,0,0.72);
 }
 @media screen and (max-width: 1080px) {
-    .container {
+    .container-Home{
       width: 60vw;
     }
 }

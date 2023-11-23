@@ -1,6 +1,12 @@
+import './Services.css'
 const Services = () => {
+    
     return (
-        <div>Services</div>
+        <div className='Services'>
+            <div className="container-Services">
+                <p>Services</p>
+            </div>
+        </div>
     )
 };
 
