@@ -90,6 +90,7 @@
     .container-Troll {
         font-size: 2.5vw;
         width: 70vw;
+        height: auto;
     }
     .container-Troll p {
         margin-bottom: 1vh;
