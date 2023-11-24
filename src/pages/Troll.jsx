@@ -30,7 +30,7 @@ const Troll = () => {
         return (
             <div className='Troll'>
                 <div className="container-Troll">
-                    <p>Se você fosse um cachorro qual seria?</p>
+                    <p>Se você fosse um cachorro, qual seria?</p>
                     <button className='Botao' onClick={changeImage}>Click Aqui</button>
                     <div className='image'>
                         <img src={imagens[imagem]} className="img"/>
