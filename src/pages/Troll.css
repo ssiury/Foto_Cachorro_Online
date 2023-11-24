@@ -24,11 +24,40 @@
 }
 .container-Troll p {
     background-color: #242424;
-    margin-bottom: 2vh;
+    margin-bottom: 1vh;
     padding: 1vw;
     border-radius: 5vw;
 }
-@media screen and (max-width: 1080px) {
+.Botao{
+    margin-bottom: 1vh;
+    border-radius: 5vh;
+    border: none;
+}
+.Botao:hover{
+    background-color: #0b0b0b;
+}
+.image{
+    width: 20vw;
+    background-color: #242424;
+    height: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    display:block;
+}
+.frase{
+    padding: 0%;
+    background-color: #242424;
+    margin-top: 1vh;
+    width: 20vw;
+    border-radius: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 500px) {
     .container-Troll {
         font-size: 4vw;
         width: 70vw;
@@ -38,7 +67,47 @@
         padding: 1vw;
         border-radius: 5vw;
     }
-    img{
-        width: 60vw;
+    .image{
+        width: 50vw;
+        height: 50vw;
+    }
+    .img{
+        display:block;
+        width: 45vw;
+    }
+    .frase{
+        padding: 0%;
+        background-color: #242424;
+        margin-top: 1vh;
+        width: 50vw;
+        border-radius: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (min-width: 501px) and  (max-width: 1080px) {
+    .container-Troll {
+        font-size: 2.5vw;
+        width: 70vw;
+    }
+    .container-Troll p {
+        margin-bottom: 1vh;
+        padding: 1vw;
+        border-radius: 5vw;
+    }
+    .image{
+        width: 40vw;
+        height: 40vw;
+    }
+    .frase{
+        padding: 0%;
+        background-color: #242424;
+        margin-top: 1vh;
+        width: 30vw;
+        border-radius: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
